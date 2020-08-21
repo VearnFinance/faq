@@ -1,3 +1,7 @@
+---
+title: faq.yearn.finance
+---
+
 # General
 
 ## Is it safe to invest money in yearn?
@@ -8,11 +12,22 @@
 
 <br>
 
+# Feedback & Support
+If you have questions about how to do anything, we can help you on:
+- [Discord](https://discord.gg/GcjxhWR)
+- [Telegram](https://t.me/yearnfinance)
+
+<br>
+
+But if you think something can be improved, or you found a bug, we want to squash it. Please post it here:
+- [Github](https://github.com/iearn-finance) — create a new issue in the relevant repository
+- [Forum](https://gov.yearn.finance/c/feedback/) — post in the feedback category
+<br>
+
 # Products
 
-## [Yearn.Finance](https://yearn.finance/)
+## [yearn.finance](https://yearn.finance/)
 - Yearn.Finance hosts UIs for the **Earn**, **Zap**, **APR**, and **Vaults** products
-
 ### [Earn](https://yearn.finance/earn)
 - Yield aggregator for lending platforms that rebalances for highest yield during contract interaction.
 - Deposit DAI, USDC, USDT, TUSD, or sUSD and it will auto lend to the highest lending rate on these platforms [Compound](https://compound.finance/), [Dydx](https://dydx.exchange/), or [Aave](https://app.aave.com/home) (Ddex and Fulcrum are currently disabled)
@@ -141,20 +156,21 @@
 
 ## YFI
 - Yearn Governance token
-- only 30,000 minted and fully distributed
+- Only 30,000 minted and already fully distributed
+    - Governance can mint more, if proposal to do so passes.
 
 ## yTokens
-- when you deposit into any yearn service your depost is wrapped and returned as a yToken representing the liquidity provided
+- When you deposit into any yearn service your depost is wrapped and returned as a yToken representing the liquidity provided
 - For example, if you deposit DAI in y.curve.fi you will receive yDAI in return
-- amounts of yToken and deposited token will differ since the yToken represents a share of a pool that is changing in value
+- Amounts of yToken and deposited token will differ since the yToken represents a share of a pool that is increasing in value
 - If you deposit a yToken into another yearn service you will get a yyToken back
 
 
 ## yCRV
 - LP token for yearn's Y pool at Curve.fi
-- aka `yDAI+yUSDC+yUSDT+yTUSD`
-- interest earning token representing your share of the Y pool composed of DAI, USDT, USDC, and TUSD 
-- via [How to provide liquidity on Curve.fi Y pool?](https://guides.curve.fi/how-to-provide-liquidity-on-curve-fi-y-pool/)
+- Aka `yDAI+yUSDC+yUSDT+yTUSD`
+- Interest earning token representing your share of the Y pool composed of DAI, USDT, USDC, and TUSD 
+- Via [How to provide liquidity on Curve.fi Y pool?](https://guides.curve.fi/how-to-provide-liquidity-on-curve-fi-y-pool/)
     - Curve Finance Y pool has long been one of the most popular pools on Curve Finance due to its strong returns from trading fees supplemented by iEarn which also lends your stable coin in the background to the lending protocol with the best lending rates out of Compound, dYdX and AAVE.
 
 
@@ -171,11 +187,11 @@
     - A lot of real-time discussion happens on the telegram and discord, but for a proposal to turn into a YIP (Yearn Improvement Proposal) it needs to be posted and discussed on the forum.
     - This is the main place token holders check for governance related issues.
 - [Discord](https://discord.gg/94CmMdt)
-    - including non-English channels
+    - Including non-English channels
 - [Telegram - Main Chat](https://t.me/yearnfinance)
 - [Telegram - Trading/Social/Fork Chat](https://t.me/yearncommunity)
 - Twitter
-    - [yearn.finance - Offical Twitter of Yearn](https://twitter.com/iearnfinance?s=20)
+    - [yearn.finance - Official Twitter of Yearn](https://twitter.com/iearnfinance?s=20)
     - [Andre Cronje - Lead Developer of Yearn](https://twitter.com/AndreCronjeTech?s=20)
 
 <br>
@@ -192,7 +208,7 @@
 - You can post your proposal on-chain first, but if people haven't talked about it, they probably won't vote for it.
 
 ### How do I make a proposal?
-- The default template for proposals can be found on [Github](https://github.com/iearn-finance/YIPS/blob/master/yip-X.md) + on the [forum](https://gov.yearn.finance/) if you make a post under proposals or discussion it will autofill in the template as well. 
+- The default template for proposals can be found on [Github](https://github.com/iearn-finance/YIPS/blob/master/yip-X.md) + on the [forum](https://gov.yearn.finance/) if you make a post under proposals or discussion it will auto-fill in the template as well. 
 
 ### Who can make a proposal?
 - Anyone can post a proposal both on the forum and on-chain.
@@ -249,7 +265,7 @@
     - Shares Requested: The number of Shares being requested
     - Token Tribute: The amount of YFI being pledged (you will need to unlock YFI)
     - Loot: The number of shares being requested
-    - After you submitted the two trxs and are in the new member queue, you will need a sponsor. Please copy the link to your proposal and let us know you’d like to join in the [yDAO Telegram channel](https://t.me/joinchat/Qn1GPBv0y7lY1vAmRCB7KA)
+    - After you submitted the two transactions and are in the new member queue, you will need a sponsor. Please copy the link to your proposal and let us know you’d like to join in the [yDAO Telegram channel](https://t.me/joinchat/Qn1GPBv0y7lY1vAmRCB7KA)
 
 ### How can I request funding?
 - The same ways as joining except instead of click member click the funding tab and fill in the details of your request. You can ask in the [telegram chat](https://t.me/joinchat/Qn1GPBv0y7lY1vAmRCB7KA) if you have any questions.
@@ -358,6 +374,7 @@
 ## Statistics
 
 - [yieldfarming.info](https://yieldfarming.info/)
+- [yVault ROI Calculator](https://py-earn.herokuapp.com/)
 - [stats.finance/yearn](https://stats.finance/yearn)
 - [Feel The Yearn](https://feel-the-yearn.vercel.app/)
 - Yearn Initial Distribution [Dune Dashboard](https://explore.duneanalytics.com/dashboard/yearn)
